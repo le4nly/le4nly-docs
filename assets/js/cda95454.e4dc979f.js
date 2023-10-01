@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkle_4_nly_docs=self.webpackChunkle_4_nly_docs||[]).push([[9595],{1461:e=>{e.exports=JSON.parse('{"permalink":"/le4nly-docs/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
