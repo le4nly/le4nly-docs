@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkle_4_nly_docs=self.webpackChunkle_4_nly_docs||[]).push([[198],{7250:l=>{l.exports=JSON.parse('{"label":"hello","permalink":"/le4nly-docs/blog/tags/hello","allTagsPath":"/le4nly-docs/blog/tags","count":2}')}}]);

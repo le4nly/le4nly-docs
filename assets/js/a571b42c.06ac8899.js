@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkle_4_nly_docs=self.webpackChunkle_4_nly_docs||[]).push([[9772],{4625:e=>{e.exports=JSON.parse('{"permalink":"/le4nly-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
