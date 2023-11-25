@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Le4nly',
+  title: 'Le4nly Documentation',
   titleDelimiter: '-', // Defaults to `|`
   tagline: 'Stay lean...',
   favicon: 'img/favicon.ico',
