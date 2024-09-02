@@ -18,6 +18,7 @@ const config: Config = {
   organizationName: 'le4nly', // Usually your GitHub org/user name.
   projectName: 'le4nly-docs', // Usually your repo name.
   trailingSlash: false,
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
