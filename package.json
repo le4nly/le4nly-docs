@@ -1,10 +1,10 @@
 {
-  "name": "le-4-nly-docs",
+  "name": "le4nly-docs",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
+    "start": "BROWSER=NONE docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
