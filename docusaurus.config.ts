@@ -4,6 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Le4nly Documentation',
+  titleDelimiter: '-', // Defaults to `|`
   tagline: 'Stay lean...',
   favicon: 'img/favicon.ico',
 
