@@ -50,12 +50,11 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/logo.svg',
     navbar: {
       title: 'Documentation',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Le4nly Logo',
         src: 'img/logo.svg',
       },
       items: [
