@@ -3,13 +3,13 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Le4nly Documentation',
+  title: 'Techtuin Documentation',
   titleDelimiter: '-', // Defaults to `|`
   tagline: 'Stay lean...',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.le4nly.com',
+  url: 'https://docs.techtuin.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -116,7 +116,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Le4nly. All rights reserved.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Techtuin B.V.. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,
