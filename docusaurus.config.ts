@@ -7,6 +7,10 @@ const config: Config = {
   titleDelimiter: '-', // Defaults to `|`
   tagline: 'Stay lean...',
   favicon: 'img/favicon.ico',
+  customFields: {
+    name: 'Techtuin',
+    rootDomain: 'techtuin.com'
+  },
 
   // Set the production url of your site here
   url: 'https://docs.techtuin.com',
@@ -55,16 +59,16 @@ const config: Config = {
     navbar: {
       title: 'Documentation',
       logo: {
-        alt: 'Le4nly Logo',
+        alt: 'Techtuin Logo',
         src: 'img/logo.svg',
       },
       items: [
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'tutorialSidebar',
-        //   position: 'left',
-        //   label: 'Tutorial',
-        // },
+        {
+          type: 'docSidebar',
+          sidebarId: 'default',
+          position: 'left',
+          label: 'Tutorial',
+        },
         // { to: '/blog', label: 'Blog', position: 'left' },
         // {
         //   href: 'https://github.com/facebook/docusaurus',

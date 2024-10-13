@@ -29,7 +29,7 @@ The OAuth 2.0 Client Credentials Grant is used to allow an application to authen
 
       Example Request:
       ```
-      curl --location 'https://oauth.le4nly.com/token' \
+      curl --location 'https://oauth.techtuin.com/token' \
       --header 'Content-Type: application/x-www-form-urlencoded' \
       --data-urlencode 'grant_type=client_credentials' \
       --data-urlencode 'client_id=CLIENT_ID' \
@@ -51,12 +51,12 @@ The OAuth 2.0 Client Credentials Grant is used to allow an application to authen
       ```
 
 1) Resource Access
-    - The client includes the access token in the Authorization header of subsequent requests to the Le4nly API.
+    - The client includes the access token in the Authorization header of subsequent requests to the Techtuin API.
     - The token is sent using the Bearer authentication scheme.
 
       Example Request:
       ```
-      curl --location 'https://graphql.le4nly.com/graphql' \
+      curl --location 'https://graphql.techtuin.com/graphql' \
       --header 'Content-Type: application/json' \
       --header 'Authorization: Bearer ACCESS_TOKEN' \
       --data '{"query":"query MyQuery(...
@@ -73,7 +73,7 @@ The OAuth 2.0 Client Credentials Grant is used to allow an application to authen
 
       Example Request:
       ```
-      curl --location 'https://oauth.le4nly.com/token' \
+      curl --location 'https://oauth.techtuin.com/token' \
       --header 'Content-Type: application/x-www-form-urlencoded' \
       --data-urlencode 'grant_type=refresh_token' \
       --data-urlencode 'refresh_token=REFRESH_TOKEN'
@@ -93,12 +93,12 @@ The OAuth 2.0 Client Credentials Grant is used to allow an application to authen
       ```
 
 1) Resource Access
-    - From now on, the client includes the bew access token in the Authorization header of subsequent requests to the Le4nly API.
+    - From now on, the client includes the bew access token in the Authorization header of subsequent requests to the Techtuin API.
     - The token is sent using the Bearer authentication scheme.
 
       Example Request:
       ```
-      curl --location 'https://graphql.le4nly.com/graphql' \
+      curl --location 'https://graphql.techtuin.com/graphql' \
       --header 'Content-Type: application/json' \
       --header 'Authorization: Bearer ACCESS_TOKEN' \
       --data '{"query":"query MyQuery(...
