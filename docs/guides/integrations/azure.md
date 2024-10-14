@@ -1,5 +1,7 @@
 ---
-sidebar_label: Azure
+sidebar_label: MS Azure
 ---
 
 # Azure
+
+Coming soon...
