@@ -1,5 +1,5 @@
 ---
-sidebar_label: MS Azure
+sidebar_label: Microsoft Azure
 ---
 
 # Azure
