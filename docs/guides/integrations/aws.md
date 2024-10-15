@@ -30,9 +30,9 @@ By leveraging these mechanisms, we ensure robust security without the operationa
 
 1) In the AWS Management Console, navigate to the CloudFormation service.
 
-1) Click "Create Stack" and choose "With new resources (standard)".
+1) Click **Create Stack** and choose **With new resources (standard)**.
 
-1) In the "Specify template" section provide the following Amazon S3 URL and proceed by clicking "Next".
+1) In the **Specify template** section provide the following Amazon S3 URL and proceed by clicking **Next**.
 
     ```
     https://s3.amazonaws.com/opsassets.techtuin.com/AdministratorAccess.json
@@ -42,13 +42,13 @@ By leveraging these mechanisms, we ensure robust security without the operationa
     >
     > If needed, AWS permissions can be configured with more granular controls based on your specific use cases. If you have any concerns, please [reach out](https://urls.techtuin.com/contact) — we're happy to work through the details with you and adjust permissions accordingly.
 
-1) Enter a stack name (e.g. `TechtuinOperator`) and provide your Techtuin tenant's ID as noted earlier.
+1) Enter a stack name (e.g. "TechtuinOperator") and provide your Techtuin tenant's ID as noted earlier.
 
 1) Optional: Specify tags, permissions, and advanced options.
 
-1) Review and Deploy: Review your configuration, acknowledge any required capabilities (e.g., IAM), and click "Create stack".
+1) Review and Deploy: Review your configuration, acknowledge any required capabilities (e.g., IAM), and click **Create stack**.
 
-1) After the deployment has finished, take note of the `OperatorRoleArn` value in the Outputs tab.
+1) After the deployment has finished, take note of the **OperatorRoleArn** value in the Outputs tab.
     
     ![AWS CloudFormation Outputs - OperatorRoleArn](./assets/techtuin_aws_operator_outputs.png)
     *Figure 1: OperatorRoleArn in AWS CloudFormation Stack Outputs*
@@ -57,14 +57,14 @@ By leveraging these mechanisms, we ensure robust security without the operationa
 
 1) Navigate to your Techtuin tenant's integrations overview.
 
-1) Select "Configure" under AWS integrations.
+1) Select **Configure** under AWS integrations.
 
-1) Click "+ Add" to create a new integration.
+1) Click **+ Add** to create a new integration.
 
-1) Assign a friendly name to your integration. We recommend using a clear, unique name such as AWS Root Account.
+1) Assign a friendly name to your integration. We recommend using a clear, unique name such as "AWS Root Account".
 
 1) Enter the ARN of the operator created earlier in CloudFormation.
 
-1) Finally, click "Create" to complete the integration setup.
+1) Finally, click **Create** to complete the integration setup.
 
 Your AWS integration is now successfully set up and ready for use in your Techtuin tenant.
