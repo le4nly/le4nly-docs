@@ -23,7 +23,7 @@ By leveraging these mechanisms, we ensure robust security without the operationa
 
 ### Prerequisites
 
-- AWS account: For more detailed instructions on creating an AWS account, please refer to the official [AWS documentation](https://aws.amazon.com/resources/create-account/).
+- AWS account: For more detailed instructions on creating an AWS account, please refer to the [official AWS documentation](https://aws.amazon.com/resources/create-account/).
 - Techtuin Tenant ID: Go to your Techtuin's tenant settings and take note of the tenant's ID you want to add an AWS operator for.
 
 ### Deploying an AWS operator
