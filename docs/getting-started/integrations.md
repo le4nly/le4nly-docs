@@ -17,8 +17,23 @@ Your Techtuin account is only as powerful as the integrations you enable. By con
 
 ... and much more.
 
-<!-- todo: Guide through GitHub + AWS in preparation for deploying a first application -->
+## Integrations
 
-<!-- [GitHub](../guides/integrations/github) (Alt: GitLab, Bitbucket, ...)
+For a full list of available integrations head over to our [integration docs](../guides/integrations).
 
-[AWS](../guides/integrations/aws) (Alt: Azure, GCP, ...) -->
+## Example Use Case
+
+In this getting started guide, we’ll walk through deploying a simple static website. Before deploying the actual application, we need to set up two essential integrations:
+
+1. **Infrastructure Provider**: This allows us to deploy the necessary infrastructure for your application.
+2. **Git Provider**: This enables hosting and managing your application’s source code.
+
+This guide will cover AWS and GitHub integrations, but you’re free to choose any supported providers that suit your needs. For example, you can opt for [Microsoft Azure](../guides/integrations/azure) or [Google Cloud](../guides/integrations/gcp) as your infrastructure provider, or use [GitLab](../guides/integrations/gitlab) or [Bitbucket](../guides/integrations/bitbucket) for source code management.
+
+### AWS Integration
+
+Please refer to our [AWS integration guide](../guides/integrations/aws) and return once your AWS integration is successfully set up and ready for use in your Techtuin tenant. (<a href="../guides/integrations/aws" target="_blank">Open in new tab</a>)
+
+### GitHub Integration
+
+Please refer to our [GitHub integration guide](../guides/integrations/github) and return once your GitHub integration is successfully set up and ready for use in your Techtuin tenant. (<a href="../guides/integrations/github" target="_blank">Open in new tab</a>)
