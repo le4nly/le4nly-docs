@@ -14,7 +14,7 @@ To learn more about security hardening with OIDC visit the [official GitHub docu
 
 ### Parameters
 
-- **Infra Deployment Id**: Selection of your AWS infra, the GitHub OpenID Connect Provider will be linked to.
+- **Infra Deployment**: Selection of your AWS infra, the GitHub OpenID Connect Provider will be linked to.
 
 - **OICD Provider ARN**: Amazon Resource Name (ARN) of the GitHub OpenID Connect Provider you want to link.
 
