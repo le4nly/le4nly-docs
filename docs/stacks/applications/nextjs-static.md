@@ -20,7 +20,7 @@ In a typical Next.js static site, features like dynamic routing, image optimizat
 
 ### Parameters
 
-- **Deployment Name**: The deployment name uniquely identifies a stack within your Techtuin tenant. It should be descriptive yet easy to understand, allowing you to quickly recognize the purpose or function of the deployment at a glance.
+- **Deployment Name**: The deployment name uniquely identifies a stack within your Techtuin tenant. It should be descriptive yet easy to understand, allowing you to quickly recognize the purpose or function of the deployment at a glance. A sanitized version will be used as your new repository's name.
 
 - **GitHub Integration**: Selection of your **Techtuin GitHub Integration**.
 
