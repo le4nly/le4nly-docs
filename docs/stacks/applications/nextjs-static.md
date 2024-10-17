@@ -26,6 +26,10 @@ In a typical Next.js static site, features like dynamic routing, image optimizat
 
 - **Infra Deployment**: Selection of your AWS infra, the application will be deployed to.
 
+- (Optional) **Custom Domain**: A custom domain can be specified. Currently, only a single custom domain is supported.
+
+- (Optional) **ACM Certificate ARN**: ARN of AWS Certificate Manager certificate. Certificate must include the specified custom domain. Required if custom domain is provided.
+
 ## Change Log
 
 ### 0.1.0 - Initial release
